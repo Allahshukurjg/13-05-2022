@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #94db47;
+}
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: visible;
+}
+
+.slides{
+    width: 295%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+display: block;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slides img{
+    width: 450px;
+    height: 600px;
+}
+
+.navigation-manual{
+
+}
+
+.manual-btn{
+    border: 2px solid #040404;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0s;
+    
+}
